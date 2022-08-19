@@ -1,0 +1,45 @@
+/* 
+fonts
+
+font-family: 'Butterfly Kids', cursive;
+font-family: 'Mukta', sans-serif;
+
+colors
+    primary==> #26292e
+    secondary==> #e7718b
+    section2 ==> #f4f4f6
+    section3 ==> #fff
+    gradient => circle at top, #ec8da1, var(--sec)
+    sec2 border => #fce3e7
+    product border=> #b9c5d1
+
+    */
+
+    :root {
+        --prim: #26292e;
+        --sec: #e7718b;
+        --font: 'Butterfly Kids', cursive;
+        --mainFont: 'Mukta', sans-serif;
+        --grad: radial-gradient(circle at top, #ec8da1, #e7718b);
+    }
+
+    *{box-sizing: border-box;}
+
+    .header {
+        background-color: var(--prim);
+        color: whitesmoke;
+    }
+
+    .top-nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-link { 
+        color: lightgray;
+        font-family: var(--font);
+    }
+
+    .nav-socials {
+        
+    }
